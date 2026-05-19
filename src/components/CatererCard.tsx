@@ -10,7 +10,7 @@ function CatererCard({ caterer,handleClickOnCard }: Props) {
     <div onClick={()=>{
       handleClickOnCard(caterer.id)
     }} className="cursor-pointer w-full md:max-w-[348px] bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
-      <img className="h-48 w-full" src={caterer.image} />
+      <img className="h-48 w-full object-cover" src={caterer.image} />
       <div className="p-5">
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-2xl font-bold text-gray-800">{caterer.name}</h2>

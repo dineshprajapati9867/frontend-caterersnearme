@@ -41,12 +41,10 @@ function CaterersPage() {
           className="w-full h-full object-cover"
         />
 
-        {/* Overlay */}
         <div className="absolute inset-0 bg-black/50" />
 
-        {/* Content */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center gap-5 md:gap-10">
-          <p className="text-white  md:text-5xl font-bold text-center max-w-6xl leading-tight m-0">
+        <div className="absolute inset-0 flex flex-col justify-center items-center gap-2.5 md:gap-10">
+          <p className="text-white text-2xl  md:text-5xl font-bold text-center max-w-6xl leading-tight m-0">
             Select the Perfect Caterer for Your Event 🍽️
           </p>
 

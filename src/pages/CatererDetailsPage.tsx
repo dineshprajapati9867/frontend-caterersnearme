@@ -31,7 +31,15 @@ function CatererDetailsPage() {
   return (
     <>
       {loading ? (
-        <p>Loading....</p>
+        <div className="min-h-[60vh] flex items-center justify-center px-4">
+          <div className="flex flex-col items-center gap-4">
+            <div className="w-10 h-10 md:w-14 md:h-14 border-[3px] md:border-4 border-orange-400 border-t-transparent rounded-full animate-spin"></div>
+
+            <p className="text-base md:text-xl font-medium text-gray-600 text-center">
+              Loading Caterer...
+            </p>
+          </div>
+        </div>
       ) : caterer ? (
         <div className="bg-[#f5f5ff] min-h-screen p-3 md:p-8">
           <div className="bg-white rounded-[20px] md:rounded-[30px] p-4 md:p-10 flex flex-col-reverse lg:flex-row gap-10 shadow-sm">
@@ -94,7 +102,6 @@ function CatererDetailsPage() {
                   {caterer.rating}
                 </p>
               </div>
-
             </div>
 
             <div className="flex-1 w-full">
