@@ -13,7 +13,7 @@ function Footer() {
                 className="w-14 h-14"
               />
 
-              <h2 className="text-3xl font-bold">
+              <h2 className="md:text-3xl text-2xl font-bold">
                 CATERERSNEARME
               </h2>
             </div>
